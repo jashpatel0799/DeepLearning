@@ -1,0 +1,64 @@
+WARNING: Ignoring invalid distribution -rotobuf (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -illow (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -rotobuf (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -illow (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -rotobuf (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -illow (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -rotobuf (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -illow (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -rotobuf (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -illow (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -rotobuf (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -illow (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+/scratch/apps/anaconda3/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/scratch/apps/anaconda3/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+
+
+RANDOM WEIGHTS
+  0%|          | 0/11 [00:00<?, ?it/s]  9%|▉         | 1/11 [07:11<1:11:57, 431.73s/it] 18%|█▊        | 2/11 [09:45<40:16, 268.48s/it]   27%|██▋       | 3/11 [12:33<29:37, 222.21s/it] 36%|███▋      | 4/11 [15:19<23:21, 200.27s/it] 45%|████▌     | 5/11 [18:00<18:36, 186.08s/it] 55%|█████▍    | 6/11 [20:38<14:42, 176.45s/it] 64%|██████▎   | 7/11 [23:15<11:20, 170.09s/it] 73%|███████▎  | 8/11 [25:53<08:19, 166.38s/it] 82%|████████▏ | 9/11 [28:31<05:27, 163.75s/it] 91%|█████████ | 10/11 [31:08<02:41, 161.55s/it]100%|██████████| 11/11 [33:44<00:00, 159.98s/it]100%|██████████| 11/11 [33:44<00:00, 184.07s/it]
+
+Epoch: 1
+Train Loss: 4.9482 | Test Loss: 4.9266  ||  Train Accuracy: 0.0037 | Test Accuracy: 0.0026
+
+Epoch: 2
+Train Loss: 4.2049 | Test Loss: 4.0149  ||  Train Accuracy: 0.0154 | Test Accuracy: 0.0052
+
+Epoch: 3
+Train Loss: 3.6715 | Test Loss: 4.1577  ||  Train Accuracy: 0.0274 | Test Accuracy: 0.0060
+
+Epoch: 4
+Train Loss: 3.3132 | Test Loss: 3.4679  ||  Train Accuracy: 0.0367 | Test Accuracy: 0.0067
+
+Epoch: 5
+Train Loss: 3.0304 | Test Loss: 3.2905  ||  Train Accuracy: 0.0443 | Test Accuracy: 0.0070
+
+Epoch: 6
+Train Loss: 2.7656 | Test Loss: 3.4294  ||  Train Accuracy: 0.0514 | Test Accuracy: 0.0070
+
+Epoch: 7
+Train Loss: 2.5202 | Test Loss: 4.7229  ||  Train Accuracy: 0.0583 | Test Accuracy: 0.0072
+
+Epoch: 8
+Train Loss: 2.1319 | Test Loss: 3.7271  ||  Train Accuracy: 0.0700 | Test Accuracy: 0.0072
+
+Epoch: 9
+Train Loss: 1.7781 | Test Loss: 4.0980  ||  Train Accuracy: 0.0809 | Test Accuracy: 0.0073
+
+Epoch: 10
+Train Loss: 1.3387 | Test Loss: 4.8750  ||  Train Accuracy: 0.0960 | Test Accuracy: 0.0073
+
+Epoch: 11
+Train Loss: 1.0555 | Test Loss: 5.8808  ||  Train Accuracy: 0.1059 | Test Accuracy: 0.0071
+
+
+XAVIER WEIGHTS
+Traceback (most recent call last):
+  File "/iitjhome/m22cs061/DL_Major/Train_resnet50.py", line 254, in <module>
+    torch.nn.init.xavier_uniform_(param)
+  File "/scratch/apps/anaconda3/lib/python3.9/site-packages/torch/nn/init.py", line 323, in xavier_uniform_
+    fan_in, fan_out = _calculate_fan_in_and_fan_out(tensor)
+  File "/scratch/apps/anaconda3/lib/python3.9/site-packages/torch/nn/init.py", line 287, in _calculate_fan_in_and_fan_out
+    raise ValueError("Fan in and fan out can not be computed for tensor with fewer than 2 dimensions")
+ValueError: Fan in and fan out can not be computed for tensor with fewer than 2 dimensions

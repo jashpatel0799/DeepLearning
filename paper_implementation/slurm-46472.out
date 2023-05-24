@@ -1,0 +1,127 @@
+WARNING: Ignoring invalid distribution -rotobuf (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -illow (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -rotobuf (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -illow (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -rotobuf (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -illow (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -rotobuf (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -illow (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -rotobuf (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -illow (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -rotobuf (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -illow (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+/scratch/apps/anaconda3/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/scratch/apps/anaconda3/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+
+
+RANDOM WEIGHTS
+  0%|          | 0/11 [00:00<?, ?it/s]  9%|▉         | 1/11 [43:34<7:15:48, 2614.82s/it] 18%|█▊        | 2/11 [1:39:44<7:38:50, 3058.93s/it] 27%|██▋       | 3/11 [2:59:31<8:33:02, 3847.81s/it] 36%|███▋      | 4/11 [4:22:12<8:20:11, 4287.38s/it] 45%|████▌     | 5/11 [5:37:39<7:17:22, 4373.81s/it] 55%|█████▍    | 6/11 [6:40:43<5:47:46, 4173.28s/it] 64%|██████▎   | 7/11 [7:21:42<4:00:51, 3612.88s/it] 73%|███████▎  | 8/11 [8:14:59<2:54:00, 3480.28s/it] 82%|████████▏ | 9/11 [9:03:00<1:49:46, 3293.10s/it] 91%|█████████ | 10/11 [9:53:16<53:27, 3207.62s/it] 100%|██████████| 11/11 [10:36:03<00:00, 3011.63s/it]100%|██████████| 11/11 [10:36:03<00:00, 3469.45s/it]
+
+Epoch: 1
+Train Loss: 4.6842 | Test Loss: 4.6340  ||  Train Accuracy: 0.0072 | Test Accuracy: 0.0042
+
+Epoch: 2
+Train Loss: 3.7308 | Test Loss: 4.8828  ||  Train Accuracy: 0.0252 | Test Accuracy: 0.0061
+
+Epoch: 3
+Train Loss: 3.2184 | Test Loss: 3.2325  ||  Train Accuracy: 0.0387 | Test Accuracy: 0.0067
+
+Epoch: 4
+Train Loss: 2.8247 | Test Loss: 2.8270  ||  Train Accuracy: 0.0497 | Test Accuracy: 0.0071
+
+Epoch: 5
+Train Loss: 2.5002 | Test Loss: 2.7817  ||  Train Accuracy: 0.0592 | Test Accuracy: 0.0073
+
+Epoch: 6
+Train Loss: 2.1824 | Test Loss: 2.5324  ||  Train Accuracy: 0.0690 | Test Accuracy: 0.0074
+
+Epoch: 7
+Train Loss: 1.8843 | Test Loss: 2.5207  ||  Train Accuracy: 0.0783 | Test Accuracy: 0.0075
+
+Epoch: 8
+Train Loss: 1.5629 | Test Loss: 2.4585  ||  Train Accuracy: 0.0886 | Test Accuracy: 0.0075
+
+Epoch: 9
+Train Loss: 1.2325 | Test Loss: 2.5795  ||  Train Accuracy: 0.1002 | Test Accuracy: 0.0076
+
+Epoch: 10
+Train Loss: 0.8606 | Test Loss: 2.7910  ||  Train Accuracy: 0.1135 | Test Accuracy: 0.0075
+
+Epoch: 11
+Train Loss: 0.6060 | Test Loss: 3.0024  ||  Train Accuracy: 0.1236 | Test Accuracy: 0.0075
+
+
+XAVIER WEIGHTS
+  0%|          | 0/11 [00:00<?, ?it/s]  9%|▉         | 1/11 [1:02:17<10:22:54, 3737.42s/it] 18%|█▊        | 2/11 [1:40:30<7:13:11, 2887.92s/it]  27%|██▋       | 3/11 [2:33:19<6:42:08, 3016.07s/it] 36%|███▋      | 4/11 [4:08:29<7:55:57, 4079.69s/it] 45%|████▌     | 5/11 [5:42:21<7:43:57, 4639.55s/it] 55%|█████▍    | 6/11 [7:57:22<8:04:41, 5816.35s/it] 64%|██████▎   | 7/11 [9:51:01<6:49:36, 6144.08s/it] 73%|███████▎  | 8/11 [10:28:47<4:05:28, 4909.52s/it] 82%|████████▏ | 9/11 [11:05:50<2:15:39, 4069.67s/it] 91%|█████████ | 10/11 [11:54:38<1:01:57, 3717.30s/it]100%|██████████| 11/11 [12:37:18<00:00, 3363.11s/it]  100%|██████████| 11/11 [12:37:18<00:00, 4130.79s/it]
+
+Epoch: 1
+Train Loss: 4.8728 | Test Loss: 4.3775  ||  Train Accuracy: 0.0039 | Test Accuracy: 0.0031
+
+Epoch: 2
+Train Loss: 4.0486 | Test Loss: 4.0025  ||  Train Accuracy: 0.0179 | Test Accuracy: 0.0048
+
+Epoch: 3
+Train Loss: 3.5443 | Test Loss: 3.4763  ||  Train Accuracy: 0.0296 | Test Accuracy: 0.0062
+
+Epoch: 4
+Train Loss: 3.2553 | Test Loss: 3.2296  ||  Train Accuracy: 0.0371 | Test Accuracy: 0.0065
+
+Epoch: 5
+Train Loss: 3.0330 | Test Loss: 3.0695  ||  Train Accuracy: 0.0433 | Test Accuracy: 0.0068
+
+Epoch: 6
+Train Loss: 2.8411 | Test Loss: 2.9275  ||  Train Accuracy: 0.0488 | Test Accuracy: 0.0071
+
+Epoch: 7
+Train Loss: 2.6697 | Test Loss: 2.7757  ||  Train Accuracy: 0.0537 | Test Accuracy: 0.0073
+
+Epoch: 8
+Train Loss: 2.5088 | Test Loss: 2.7940  ||  Train Accuracy: 0.0586 | Test Accuracy: 0.0072
+
+Epoch: 9
+Train Loss: 2.3486 | Test Loss: 2.7426  ||  Train Accuracy: 0.0632 | Test Accuracy: 0.0073
+
+Epoch: 10
+Train Loss: 2.1907 | Test Loss: 2.6532  ||  Train Accuracy: 0.0680 | Test Accuracy: 0.0074
+
+Epoch: 11
+Train Loss: 2.0302 | Test Loss: 2.6769  ||  Train Accuracy: 0.0729 | Test Accuracy: 0.0074
+
+
+HE WEIGHTS
+  0%|          | 0/11 [00:00<?, ?it/s]  9%|▉         | 1/11 [29:24<4:54:09, 1764.91s/it] 18%|█▊        | 2/11 [1:35:07<7:36:55, 3046.14s/it] 27%|██▋       | 3/11 [2:49:05<8:10:53, 3681.71s/it] 36%|███▋      | 4/11 [3:41:17<6:44:12, 3464.62s/it] 45%|████▌     | 5/11 [4:52:01<6:14:34, 3745.68s/it] 55%|█████▍    | 6/11 [6:05:43<5:31:16, 3975.37s/it] 64%|██████▎   | 7/11 [6:55:46<4:03:51, 3657.79s/it] 73%|███████▎  | 8/11 [7:39:39<2:46:34, 3331.35s/it] 82%|████████▏ | 9/11 [9:33:55<2:27:46, 4433.15s/it] 91%|█████████ | 10/11 [11:08:39<1:20:19, 4819.44s/it]100%|██████████| 11/11 [11:31:40<00:00, 3767.17s/it]  100%|██████████| 11/11 [11:31:40<00:00, 3772.80s/it]
+
+Epoch: 1
+Train Loss: 4.8728 | Test Loss: 4.3775  ||  Train Accuracy: 0.0039 | Test Accuracy: 0.0031
+
+Epoch: 2
+Train Loss: 4.0486 | Test Loss: 4.0025  ||  Train Accuracy: 0.0179 | Test Accuracy: 0.0048
+
+Epoch: 3
+Train Loss: 3.5443 | Test Loss: 3.4763  ||  Train Accuracy: 0.0296 | Test Accuracy: 0.0062
+
+Epoch: 4
+Train Loss: 3.2553 | Test Loss: 3.2296  ||  Train Accuracy: 0.0371 | Test Accuracy: 0.0065
+
+Epoch: 5
+Train Loss: 3.0330 | Test Loss: 3.0695  ||  Train Accuracy: 0.0433 | Test Accuracy: 0.0068
+
+Epoch: 6
+Train Loss: 2.8411 | Test Loss: 2.9275  ||  Train Accuracy: 0.0488 | Test Accuracy: 0.0071
+
+Epoch: 7
+Train Loss: 2.6697 | Test Loss: 2.7757  ||  Train Accuracy: 0.0537 | Test Accuracy: 0.0073
+
+Epoch: 8
+Train Loss: 2.5088 | Test Loss: 2.7940  ||  Train Accuracy: 0.0586 | Test Accuracy: 0.0072
+
+Epoch: 9
+Train Loss: 2.3486 | Test Loss: 2.7426  ||  Train Accuracy: 0.0632 | Test Accuracy: 0.0073
+
+Epoch: 10
+Train Loss: 2.1907 | Test Loss: 2.6532  ||  Train Accuracy: 0.0680 | Test Accuracy: 0.0074
+
+Epoch: 11
+Train Loss: 2.0302 | Test Loss: 2.6769  ||  Train Accuracy: 0.0729 | Test Accuracy: 0.0074
